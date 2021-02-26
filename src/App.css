@@ -1,0 +1,30 @@
+.App {
+}
+
+nav {
+  top: 0%;
+  left: 0;
+  position: fixed;
+  background-color: chocolate;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  height: 50px;
+  align-items: center;
+  margin: 0;
+}
+
+.navlink {
+  font-size: 20px;
+  width: 40%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.navlink li:hover {
+  color: chartreuse;
+}
+.isi {
+  margin-top: 50px;
+}
